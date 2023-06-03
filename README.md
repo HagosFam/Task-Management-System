@@ -18,8 +18,37 @@ Task Update and Deletion: Allow users to update the details of a task or delete 
 
 Task Filtering and Sorting: Provide options to filter and sort tasks based on various criteria such as due date, status, or priority.
 
+Each task can have unlimited sub tasks inside it.
+
 User Collaboration: Allow users to collaborate by sharing tasks with other registered users and assigning tasks to specific users.
 
 Notifications: Implement notifications to inform users about task updates, upcoming due dates, or new task assignments.
 
 Responsive Design: Ensure the application is responsive and can be used on different devices and screen sizes.
+
+Mongo Db document structure 
+
+{
+  "_id": ObjectId("615fc64a0b8e4c1964e57d2a"),
+  "title": "Task Title",
+  "description": "Task Description",
+  "status": "incomplete",
+  "dueDate": ISODate("2023-06-30T00:00:00Z"),
+  "subTasks": [
+    {
+      "title": "Subtask 1",
+      "description": "Subtask 1 Description",
+      "status": "complete"
+    },
+    {
+      "title": "Subtask 2",
+      "description": "Subtask 2 Description",
+      "status": "incomplete"
+    }
+  ],
+  "assignedTo": "John Doe",
+  "createdBy": "Jane Smith",
+  "createdAt": ISODate("2023-06-02T09:00:00Z"),
+  "updatedAt": ISODate("2023-06-02T10:30:00Z")
+}
+
