@@ -28,7 +28,8 @@ Responsive Design: Ensure the application is responsive and can be used on diffe
 
 Mongo Db document structure 
 
-![image](https://github.com/HagosFam/Task-Management-System/assets/41420437/70f2c037-dc01-48e2-8cf2-9f7e4195274e)
+![image](https://github.com/HagosFam/Task-Management-System/assets/41420437/60a218bb-cbc5-464f-b2b7-6a4a92b7ddc5)
+
 
 
 
