@@ -28,27 +28,6 @@ Responsive Design: Ensure the application is responsive and can be used on diffe
 
 Mongo Db document structure 
 
-{
-  "_id": ObjectId("615fc64a0b8e4c1964e57d2a"),
-  "title": "Task Title",
-  "description": "Task Description",
-  "status": "incomplete",
-  "dueDate": ISODate("2023-06-30T00:00:00Z"),
-  "subTasks": [
-    {
-      "title": "Subtask 1",
-      "description": "Subtask 1 Description",
-      "status": "complete"
-    },
-    {
-      "title": "Subtask 2",
-      "description": "Subtask 2 Description",
-      "status": "incomplete"
-    }
-  ],
-  "assignedTo": "John Doe",
-  "createdBy": "Jane Smith",
-  "createdAt": ISODate("2023-06-02T09:00:00Z"),
-  "updatedAt": ISODate("2023-06-02T10:30:00Z")
-}
+![image](https://github.com/HagosFam/Task-Management-System/assets/41420437/679aede1-eca4-428c-b4f7-6206e2ded607)
+
 
